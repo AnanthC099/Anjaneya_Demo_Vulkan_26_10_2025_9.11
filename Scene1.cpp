@@ -42,7 +42,7 @@ static const DWORD K_HOLD_DURATION_MS    = 3000u;
 static const int   K_PAN_REPEATS         = 12;
 static const float K_MIN_SEP_DEG         = 90.0f;
 static const int   K_OVERLAY_COUNT       = 12;
-static const float K_OVERLAY_SIZE_FRAC0  = 0.40f;
+static const float K_OVERLAY_SIZE_FRAC0  = 0.55f;
 static float       sOverlaySizeFrac      = K_OVERLAY_SIZE_FRAC0;
 static float       sPanSpeedDegPerSec    = 30.0f;
 
