@@ -506,6 +506,8 @@ createCommandBuffers() --> scene1 vkAllocateCommandBuffers() succeeded for itera
 createCommandBuffers() --> scene2 vkAllocateCommandBuffers() succeeded for iteration 0
 createCommandBuffers() --> scene2 vkAllocateCommandBuffers() succeeded for iteration 1
 WndProc() --> Showcase sequence started
+ApplyScenePhase() --> Showing Scene2
+WndProc() --> Requested Scene2
 Resize() --> vkDeviceWaitIdle() is done
 Resize() --> gCtx_Switcher.vkFrameBuffer_array() is done
 Resize() --> vkFreeCommandBuffers() is done
